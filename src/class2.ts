@@ -1,12 +1,12 @@
 // 类类型的接口不能包含私有属性和被保护属性
-// 接口只能约束类的共有成员
+// 接口只能约束类的公有成员
 // 接口中不能约束类的构造函数
 interface Human {
   // new (name: string): void
   name: string;
   eat(): void
 }
-// 类实现接口
+// 类实现接口（必须实现接口中所有的属性）
 class Asian implements Human {
   constructor(name: string) {
     this.name = name;

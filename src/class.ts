@@ -22,12 +22,22 @@
 // let dog = new Dog('wangwang')
 // console.log(dog)
 
+// // class Husky extends Dog {
+// //   constructor (name: string, color: string) {
+// //     super(name)
+// //     // this的使用必須在super的后面
+// //     this.color = color
+// //     this.pro()
+// //   }
+// //   color: string
+// // }
+
+// // 构造函数参数增加修饰符public 则属性不需要在类中再声明
 // class Husky extends Dog {
-//   constructor (name: string, color: string) {
+//   constructor (name: string, public color: string) {
 //     super(name)
 //     // this的使用必須在super的后面
 //     this.color = color
 //     this.pro()
 //   }
-//   color: string
 // }
