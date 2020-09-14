@@ -4,7 +4,9 @@
 // import './class'
 // import './class1'
 // import './class2'
-import './fanxing'
+// import './fanxing'
+// import './generics'
+import './advance'
 
 let hello: string = 'hello world'
 
