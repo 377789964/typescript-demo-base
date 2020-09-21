@@ -23,3 +23,5 @@ function log<T extends Length>(value: T) {
 log([1,2,3])
 log('123')
 log({length: 123})
+
+export {}

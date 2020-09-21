@@ -49,3 +49,5 @@ class C implements AutoInterface {
 class Bus extends Auto implements AutoInterface {
 
 }
+
+export {}

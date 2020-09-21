@@ -43,3 +43,5 @@ function add8(...args: any[]): any {
 }
 console.log(add8(1, 2, 3, 4), 'add8')
 console.log(add8('1', '2', '3', '4'), 'add8')
+
+export {}

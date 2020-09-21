@@ -70,3 +70,5 @@ let lib1 = getLib();
 lib1.doSomeThing()
 let lib2 = getLib();
 lib2.doSomeThing()
+
+export {}
